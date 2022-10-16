@@ -64,6 +64,7 @@ class DestType(IntEnum):
     BROADCAST = 0x00  # Send message/notice to all clients (All)
     TEAM = 0x01  # Send message/notice to everyone playing the same company (Team)
     CLIENT = 0x02  # Send message/notice to only a certain client (Private)
+    BROADCAST_SS = 0x03  # Send message/notice to all clients (All), but tag the broadcast to self as a self-send
 
 
 class PollExtra(IntEnum):
